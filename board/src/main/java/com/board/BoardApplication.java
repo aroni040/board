@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BoardApplication {
 
 	public static void main(String[] args) {
+		System.setProperty("spring.profiles.default", "local");
 		SpringApplication.run(BoardApplication.class, args);
+		
 	}
 
 }
