@@ -8,7 +8,7 @@ public class BoardApplication {
 
 	public static void main(String[] args) {
 		System.setProperty("spring.profiles.default", "local");
-		SpringApplication.run(BoardApplication.class, args);
+		//SpringApplication.run(BoardApplication.class, args);
 		
 	}
 
